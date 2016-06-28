@@ -11,6 +11,10 @@ class Cat {
         $this->position = ['x' => 0, 'y' => 0];
     }
     
+    public function  MoveTo($x, $y)
+    {
+    }
+
     protected function innerFunction()
     {
         print 'innerFunction';
