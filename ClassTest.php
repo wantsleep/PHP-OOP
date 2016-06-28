@@ -10,6 +10,11 @@ class Cat {
         $this->name = $name;
         $this->position = ['x' => 0, 'y' => 0];
     }
+    
+    protected function innerFunction()
+    {
+        print 'innerFunction';
+    }
 
 }
 ?>
